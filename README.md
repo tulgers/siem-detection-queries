@@ -1,16 +1,35 @@
-# siem-detection-queries
-SIEM detection queries and threat detection examples
-## Purpose
-This repository contains SIEM detection queries and examples to demonstrate my practical skills in security monitoring and threat detection.
+# SIEM Detection Queries & SOC Investigation Portfolio
 
-## Tools
-- Microsoft Sentinel (KQL)
-- Splunk (SPL)
+## 🔗 Featured Projects
 
-## Use Cases
-- Failed login detection
-- Brute force detection
-- Suspicious activity analysis
+* 🔐 Brute Force Investigation → [View Project](https://github.com/tulgers/siem-detection-queries/blob/main/brute-force-investigation.md)
+* 🌍 Travel Detection (Impossible Travel) → [View Project](https://github.com/tulgers/siem-detection-queries/blob/main/impossible-travel-detection.kql)
+* 🚨 Failed Login Detection → [View Project](https://github.com/tulgers/siem-detection-queries/blob/main/failed-login-detection.kql)
+
+## Overview
+
+This repository contains hands-on SIEM detection queries and investigation scenarios based on real-world attack patterns.
+These projects simulate real SOC scenarios, focusing on detection logic, alert validation, and investigation workflows.
+The focus is not only on detection, but on how alerts are analyzed, validated, and investigated from a SOC analyst perspective.
+
+## Tools & Technologies
+
+* Microsoft Sentinel (KQL)
+* Splunk (SPL)
+* Log analysis & event correlation
+
+## Investigation Approach
+
+* Reviewing raw logs
+* Correlating multiple events
+* Analyzing user behavior and context
+* Identifying patterns rather than isolated events
 
 ## Goal
+
 To improve detection accuracy, reduce false positives, and strengthen SOC investigation skills.
+
+## Key Insight
+
+A single event is rarely meaningful on its own.
+Effective detection and investigation rely on context, patterns, and correlation.
